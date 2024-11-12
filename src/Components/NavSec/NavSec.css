@@ -1,0 +1,73 @@
+.zq-navSec{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.1) ;
+   z-index: 99999;
+}
+.zq-logo2{
+    width: 80px;
+}
+
+.zq-logo1 {
+    width: 110px;
+}
+.zq-itemSec {
+display: flex;
+list-style: none;
+align-items: center;
+justify-content: center;
+gap: 40px;
+margin-left:90px;
+padding: 0;
+}
+.zq-itemSec  li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.875rem;
+}
+.zq-iconsearch{
+   margin-right: 20px;
+}
+ .btn-zq {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        background-color: #3344e8;
+        padding: 10px 40px; 
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 5% 50%);
+}
+.btn {
+display: flex;
+background-color:#fff;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+color: black;
+margin-right: 150px;
+}
+.btn-icon{
+    margin-left: 3px;
+}
+.icon-media{
+    display: none; 
+}
+@media (max-width: 1195px) {
+    .zq-itemSec {
+      display: none; 
+    }
+    
+    .icon-media {
+      display: inline-flex;
+    }
+    .zq-logo2{
+        display: none;
+    }
+    .btn-zq{
+        display: none;   
+    }
+   
+}
