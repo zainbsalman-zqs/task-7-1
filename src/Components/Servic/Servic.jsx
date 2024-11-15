@@ -1,4 +1,5 @@
 import React from 'react';
+import "./servic.css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import ServiceCard from '../CardsComponent/CardsService';
 import InfoCard from '../CardsComponent/CardsInfo';
@@ -12,7 +13,7 @@ function Servic() {
     { title: 'Woo Commerce', description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aliquam omnis voluptatem vitae error rem cupiditate qui, nihil, alias iure sed' ,   image:ImgServic1 },
     { title: 'CRM Solutions', description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aliquam omnis voluptatem vitae error rem cupiditate qui, nihil, alias iure sed',   image:ImgServic2   },
     { title: 'Web Design', description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aliquam omnis voluptatem vitae error rem cupiditate qui, nihil, alias iure sed ' ,   image:ImgServic3  },
-    { title: 'Data Guard Sentinel', description: '' ,   image:ImgServic4  },
+    { title: 'Data Guard Sentinel', description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aliquam omnis voluptatem vitae error rem cupiditate qui, nihil, alias iure sed' ,   image:ImgServic4  },
   ];
 
   const Info = [
@@ -41,9 +42,8 @@ function Servic() {
             description={service.description} 
           />
         ))}
-      </div>
-      <div>
-        <iframe 
+      
+        <iframe className='video'
           width="560" 
           height="315" 
           src="https://www.youtube.com/embed/w4fq2SREm4Y?si=aiTL7AndJXcxo1Bw" 
@@ -54,7 +54,7 @@ function Servic() {
           allowFullScreen
         ></iframe>
       </div>
-      <div>
+      <div className='Info-zq'>
         {Info.map((step, index) => (
           <InfoCard 
             key={index} 
@@ -64,6 +64,7 @@ function Servic() {
           />
         ))}
       </div>
+   
     </section>
   );
 }

@@ -3,11 +3,7 @@ import './Herosection.css'
 import ImgHero from '../../assets/V7-task/heroThumb1_1.webp'
 import { GiCheckMark } from "react-icons/gi";
 import { CiWavePulse1 } from "react-icons/ci";
-import Imghero1 from '../../assets/V7-task/brandLogo1_1.svg'
-import Imghero2 from '../../assets/V7-task/brandLogo1_2.svg'
-import Imghero3 from '../../assets/V7-task/brandLogo1_3.svg'
-import Imghero4 from '../../assets/V7-task/brandLogo1_4.svg'
-import Imghero5 from '../../assets/V7-task/brandLogo1_5.svg'
+
 function Herosection() {
   return (
     <div className='hero'>
@@ -32,13 +28,7 @@ function Herosection() {
       <img src={ImgHero} alt="person" />
     </div>
     </div>
-    <div className='hero-logo'>   
-      <img src={Imghero1} alt="brandlogo" />
-      <img src={Imghero2} alt="brandlogo" />
-      <img src={Imghero3} alt="brandlogo" />
-      <img src={Imghero4} alt="brandlogo" />
-      <img src={Imghero5} alt="brandlogo" />
-    </div>
+ 
   </div>
   )
 }

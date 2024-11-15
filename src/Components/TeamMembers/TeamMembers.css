@@ -1,0 +1,85 @@
+.team-members-section{
+    padding: 30px 70px 70px 70px;
+}
+.btn-memzq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5565ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Righticon-btn{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.dec-zq{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+flex-wrap: wrap;   
+}
+
+.team-members{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.team-membercard-zq {
+    position: relative; 
+    border-radius: 30%;
+    height: 350px;
+    border-radius: 15px;
+   
+}
+
+
+.member-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #18185e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    clip-path: polygon(0% 19%, 100% 0, 100% 100%, 0 100%);
+    border-top-right-radius:20px ;
+}
+.member-info  h3{
+    margin-bottom: 20px;
+}
+.icon-card-zq{
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #384bff;
+border-radius:50% ;
+color: white;
+position: absolute;
+top: 0;
+right:0;
+}
+.litel-title{
+color: #5565ff;
+}
+.left-icon{
+    margin-right: 10px;
+}
+.right-icon{
+    margin-left: 10px;
+}
+.litel-title{
+    margin-bottom: 20px;
+}
+

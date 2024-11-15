@@ -1,0 +1,103 @@
+Footer{
+    background-color: #18185e;
+  padding: 50px 100px;
+  color: white;
+  list-style: none;
+}
+
+.zq-cardfooter{
+    background-color: #384bff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+   flex-wrap: wrap;
+margin-bottom: 50px;
+}
+.zq-titlecardfooter{
+font-size: 0.7rem;
+}
+.zq-iconcardfooter{
+    display: flex;
+}
+.zq-iconcardfooter {
+    display: flex;
+    font-size: 1.5rem; 
+    margin-right: 10px; 
+}
+.zq-textcardfooter {
+    display: flex;
+    flex-direction: column;
+margin-right: 40px;
+}.zq-cardfooter-item {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    padding: 0 5px;
+    border-right: 1px solid #ffffff; 
+    flex-wrap: wrap;
+
+}
+.dscrptin-zq {
+    width: 25%;
+}
+.dscrptin-zq p{
+    margin: 20px 0;
+}
+.zq-cardfooter-item:last-child {
+    border-right: none;
+}
+.zq-itemfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+
+.media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.media a {
+color: white;
+width: 35px;
+height: 35px;
+border:2px solid #000000 ;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1px;
+}
+h5{
+    margin-bottom: 10px;
+}
+
+
+ .Recent li{
+display: flex;
+margin-left: 10px;
+
+ }
+ .date{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+ }
+ 
+.date-p{
+    padding-left: 10px;
+}
+.Quick li{
+list-style: none;
+margin-bottom: 20px;
+}
+@media(max-width:720){
+    .zq-itemfooter{
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+}

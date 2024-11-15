@@ -1,0 +1,34 @@
+.herosec-zq
+{
+    height: 80vh;
+    width: 100%;
+    background-image:
+    linear-gradient(to left, rgb(14 39 100), rgba(56, 76, 255, 0.226)),
+    url('../../assets/V7-task/breadcrumb.webp') ;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.titleHero-zq{
+margin-bottom: 20px;
+}
+.iconHero-zq{
+    margin: 0 3px 2px 3px ;
+   
+}
+.ImgPos-zq{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.ImgPos1-zq{
+    position: absolute;
+    right:  0;
+    bottom: 0;
+    z-index: 1;
+}

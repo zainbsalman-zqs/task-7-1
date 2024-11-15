@@ -1,0 +1,16 @@
+.brands-section{
+    padding : 0 50px 50px 50px;
+}
+.brand-logo2{
+width: 120px;
+}
+.brands-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.brands-text{
+text-align: center;
+margin-bottom: 20px;
+}
